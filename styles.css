@@ -1,0 +1,280 @@
+@import url('https://fonts.cdnfonts.com/css/coda-2');
+@import url('https://fonts.cdnfonts.com/css/porschac');
+
+                
+.navbar-brand img {
+  width: 150px; 
+  height: auto; 
+}
+
+a {
+  color: #000000 !important; 
+  text-decoration: none !important;
+  font-family: 'Coda', sans-serif;
+  font-size: 23px;
+  margin: 9px ;
+}
+
+a .bi-geo-alt-fill {
+  fill: #000000 !important; 
+}
+
+#miCarrusel .carousel-item {
+  position: relative;
+}
+  
+#miCarrusel .carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+  
+#miCarrusel .carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2; 
+}
+  
+#miCarrusel .carousel-item h5 {
+  font-size: 2em; 
+  z-index: 3; 
+}
+  
+#miCarrusel .carousel-item p {
+  font-size: 1.2em; 
+  z-index: 3; 
+}
+  
+#miCarrusel .carousel-control-prev-icon,
+#miCarrusel .carousel-control-next-icon {
+  background-color: #333; 
+  border-radius: 50%; 
+  padding: 10px; 
+}
+  
+#miCarrusel .carousel-control-prev,
+#miCarrusel .carousel-control-next {
+  width: auto;
+}
+  
+#miCarrusel .carousel-item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70%; 
+  background: linear-gradient(to top, rgba(0, 0, 0, 1), transparent); 
+  z-index: 1; 
+}
+  
+  
+.btn div {
+  color: #FFFF; 
+}
+
+.btn svg {
+  fill: #FFFF; 
+}
+
+.container-fluid .row .col {
+  background-color: #212225; 
+}
+
+.btn:hover div, .btn:hover svg {
+  color: #4CAF50;
+  fill: #4CAF50; 
+}
+
+.container-xl{
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+
+.container-xl h2{
+  font-family: 'Coda', sans-serif;
+  margin-bottom: 10px;
+  text-align:left;
+}
+
+.card {
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+.card-img {
+  position: relative;
+  width: 100%;
+  max-height: 270px;
+  object-fit: cover;
+  transition: transform 0.27s ease-in-out;
+  filter: brightness(70%);
+}
+
+.card:hover .card-img {
+  transform: scale(1.1);
+}
+
+.card h5 {
+  margin-top: 210px;
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel-item .car-name {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.no-shadow::after {
+  background: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.text-box {
+  background-color: black;
+  color: white; 
+  width: 600px;
+  height: 450px;
+  padding: 20px;
+}
+/* Muestra carros */
+.card-img-top {
+  width: 100%; 
+  height: auto; 
+}
+
+.container-fluid4 .card {
+  border: 2px solid #333; 
+  background-color: transparent; 
+}
+
+.container-fluid4 h2{
+  font-family: 'Coda', sans-serif;
+  margin-bottom: 50px;
+  margin-left: 120px;
+}
+
+
+
+.container-fluid4 h2{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.container-fluid4 {
+  margin-bottom: 0px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px; 
+}
+
+.directions {
+  margin-top: 20px; 
+}
+.directions svg {
+  width: 18px;
+  height: 18px;
+}
+
+.form-label{
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+.form-select{
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+.container-sm{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.container-sm p{
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+
+.container-sm h5{
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+
+.form-control{
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+
+.container-sm .btn{
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+
+.p-0{
+  margin-left: 10px;
+  font-family: 'Coda', sans-serif;
+  font-size: 20px;
+}
+
+#espaciado {
+  white-space: pre;
+}
+
+.container2{
+  margin: 100px;
+  font-family: 'Coda', sans-serif;
+  font-size: 15px;
+}
+
+.container2 h3{
+  font-family: 'Coda', sans-serif;
+  font-size: 35px;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid2 {
+  font-family: 'Coda', sans-serif;
+  padding: 100px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.container-fluid2 h2{
+  font-family: 'PorschaC', sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
